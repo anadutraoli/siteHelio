@@ -11,7 +11,8 @@
 .container h2 {
   position: relative;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: 500;
+  color: #3d3d3d;
 }
 
 .titulo-container::before {
@@ -38,7 +39,7 @@
 
 .itens-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
@@ -72,7 +73,60 @@
   color: #411800;
 }
 
-.populares-container {
-  font-weight: 800;
+@media (max-width: 1300px) {
+  .itens-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+  .introducao p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .itens-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+
+  .introducao p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .titulo-container::before,
+  .titulo-container::after {
+    display: none;
+  }
+
+  .container h2 {
+    font-size: 1.2rem;
+  }
+
+  .item-container {
+    width: 200px;
+    height: 330px;
+  }
+
+  .titulo-item {
+    font-size: 1rem;
+  }
+
+  .item-preco p {
+    font-size: 1.2rem;
+  }
+
+  .divisor {
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .itens-container {
+    grid-template-columns: 1fr;
+  }
 }
