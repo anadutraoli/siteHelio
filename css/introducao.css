@@ -55,11 +55,18 @@
     padding: 30px 30px;
   }
 
+  .introducao-texto, .introducao {
+    place-items: center;
+    text-align: center;
+  }
+
   .introducao h1 {
     font-size: 2rem;
+    width: 13ch;
   }
 
   .introducao p {
     font-size: 1rem;
+    text-align: center;
   }
 }
