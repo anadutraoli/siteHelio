@@ -30,10 +30,9 @@
   padding: 5px 10px;
 }
 
-
 .login-menu {
-  color: #F5F4F4;
-  background-color: #914A21;
+  color: #f5f4f4;
+  background-color: #914a21;
   padding: 5px 10px;
   border-radius: 5px;
   display: flex;
@@ -42,27 +41,28 @@
   font-weight: 500;
 }
 
-
 @media (max-width: 1000px) {
   .header {
     flex-direction: column;
     gap: 20px;
     font-size: 1rem;
-  } 
-  
-  .header-menu {
-    justify-items: center;
   }
 
-  .carrinho-menu{
+  .carrinho-menu {
     display: none;
   }
 }
 
 @media (max-width: 700px) {
- 
-
-  .login-menu, .cadastro-menu{
+  .login-menu,
+  .cadastro-menu {
     display: none;
   }
 }
+
+@media (max-width: 400px) {
+  .header {
+    padding: 10px 30px;
+  }
+}
+

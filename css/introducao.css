@@ -52,7 +52,7 @@
   .introducao {
     grid-template-columns: 1fr;
     gap: 50px;
-    padding: 30px 60px;
+    padding: 30px 30px;
   }
 
   .introducao h1 {
@@ -61,5 +61,11 @@
 
   .introducao p {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao {
+    padding: 0px 10px;
   }
 }
