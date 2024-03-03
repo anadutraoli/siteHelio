@@ -91,7 +91,8 @@
     display: none;
   }
 
-  .container h2 {
+  .container h2,
+  .item-preco p{
     font-size: 1.2rem;
   }
 
@@ -102,10 +103,6 @@
 
   .titulo-item {
     font-size: 1rem;
-  }
-
-  .item-preco p {
-    font-size: 1.2rem;
   }
 
   .divisor {

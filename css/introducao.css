@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 150px;
-  align-items: center;
+  place-items: center;
 }
 
 .introducao-texto {
@@ -59,12 +59,19 @@
     padding: 30px 30px;
   }
 
+  .introducao-texto, .introducao {
+    place-items: center;
+    text-align: center;
+  }
+
   .introducao h1 {
     font-size: 2rem;
+    width: 13ch;
   }
 
   .introducao p {
     font-size: 1rem;
+    text-align: center;
   }
 }
 
