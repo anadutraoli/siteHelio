@@ -16,6 +16,10 @@
   font-size: 1.2rem;
 }
 
+.header-menu a:hover {
+  color: #914a21;
+}
+
 .produtos-menu {
   display: flex;
   gap: 4px;
@@ -30,6 +34,10 @@
   padding: 5px 10px;
 }
 
+.cadastro-menu:hover {
+  border: 1px solid #914a21;
+}
+
 .login-menu {
   color: #f5f4f4;
   background-color: #914a21;
@@ -40,6 +48,11 @@
   align-items: center;
   gap: 9px;
   font-weight: 500;
+}
+
+.login-menu:hover {
+  color: #fff !important;
+  background-color: #8b3f12 !important;
 }
 
 #btn-mobile {
@@ -90,19 +103,6 @@
   .login-menu {
     display: flex;
     justify-content: center;
-  }
-
-  .header-menu a:hover {
-    color: #914a21;
-  }
-
-  .cadastro-menu:hover {
-    border: 1px solid #914a21;
-  }
-
-  .login-menu:hover {
-    color: #fff !important;
-    background-color: #8b3f12 !important;
   }
 
   .produtos-menu img {
