@@ -77,23 +77,11 @@
   .itens-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .introducao p {
-    font-size: 1.2rem;
-  }
 }
 
 @media (max-width: 900px) {
   .itens-container {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .introducao h1 {
-    font-size: 2rem;
-  }
-
-  .introducao p {
-    font-size: 1rem;
   }
 }
 
