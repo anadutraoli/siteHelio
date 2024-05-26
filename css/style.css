@@ -1,0 +1,23 @@
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+
+/* Global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Introdução */
+@import "./introducao/introducao.css";
+
+/* Sessões */
+@import "./sessoes-produtos/paodemel.css";
+@import "./sessoes-produtos/conetrufado.css";
+
+/* Avaliações */
+@import "./avaliacoes/avaliacoes.css";
+
+/* Conclusao */
+@import "./conclusao/conclusao.css";

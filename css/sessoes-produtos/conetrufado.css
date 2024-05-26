@@ -1,0 +1,76 @@
+.cone-lista {
+  display: block;
+    padding-bottom: 100px;
+}
+
+.cone-lista ul {
+  display: flex;
+  gap: 45px;
+  padding: 0;
+  overflow-x: auto;
+}
+
+.cone-lista li {
+  min-width: 280px;
+  flex: 1;
+} 
+
+
+.cone-lista img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+
+.cone-lista h2 {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.cone-lista h2::before {
+  content: "";
+  display: inline-block;
+  margin-right: 8px;
+  height: 8px;
+  width: 12px;
+  background-color: var(--cor-p13);
+  transition: width 0.2s;
+}
+
+.cone-lista a:hover h2::before  {
+  width: 20px;
+}
+
+.cone-lista img:hover {
+  background-color: rgba(65, 24, 0, 0.40);
+  box-shadow: 1px -32px 7.7px 0px rgba(65, 24, 0, 0.40);
+
+}
+
+.titulo-item {
+  font-weight: 500;
+}
+
+.preco-item {
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+@media (max-width: 1000px) {
+  .cone-lista {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cone-lista h1 {
+    font-size: 1.5rem;
+  }
+
+  .cone-lista h2, 
+  .cone-lista p {
+    font-size: 1rem;
+  }
+} 

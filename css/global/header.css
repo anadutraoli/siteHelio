@@ -1,0 +1,23 @@
+.header {
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu-contato {
+  border: 1px solid #411800;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1rem;
+  }
+}
