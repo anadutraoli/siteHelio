@@ -9,7 +9,9 @@ p,
 h2,
 h3,
 article,
-ul {
+ul,
+footer,
+body {
   margin: 0;
   padding: 0;
 }

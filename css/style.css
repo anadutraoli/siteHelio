@@ -13,8 +13,10 @@
 @import "./introducao/introducao.css";
 
 /* Sessões */
-@import "./sessoes-produtos/paodemel.css";
+@import "./sessoes-produtos/sessao-produtos.css";
 @import "./sessoes-produtos/conetrufado.css";
+@import "./sessoes-produtos/paodemel.css";
+@import "./sessoes-produtos/maisvendidos.css";
 
 /* Avaliações */
 @import "./avaliacoes/avaliacoes.css";

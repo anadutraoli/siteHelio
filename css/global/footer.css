@@ -1,0 +1,16 @@
+.footer-bg {
+  background-color: var(--cor-p12);
+  padding: 20px;
+}
+
+.footer-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-conteudo p {
+  text-transform: capitalize;
+}

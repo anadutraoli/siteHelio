@@ -19,3 +19,8 @@
 .botao:hover {
 background: var(--gradiente2);
 }
+
+.preco-item {
+  font-weight: 600;
+  padding-left: 20px;
+}

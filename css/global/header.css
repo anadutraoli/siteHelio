@@ -8,6 +8,10 @@
   gap: 25px;
 }
 
+.header-menu li:hover {
+  color: var(--cor-p12);
+}
+
 .menu-contato {
   border: 1px solid #411800;
   border-radius: 5px;
