@@ -24,6 +24,7 @@
 
 #btn-mobile {
   display: none;
+  color: var(--cor-p13);
 }
 
 /* @media (max-width: 900px) {
