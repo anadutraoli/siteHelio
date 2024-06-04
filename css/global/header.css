@@ -27,18 +27,10 @@
   color: var(--cor-p13);
 }
 
-/* @media (max-width: 900px) {
-  .header {
-    flex-direction: column;
-    gap: 20px;
-    font-size: 1rem;
-  }
-} */
-
 @media (max-width: 700px) {
   #btn-mobile {
     display: flex;
-    padding: 15px 35px;
+    padding: 15px 25px;
     font-size: 16px;
     border: none;
     background: none;
@@ -86,11 +78,11 @@
 
   .header-menu a {
     padding: 20px 0px;
-    margin: 0 60px;
+    margin: 0 30px;
   }
 
   #nav.active .header-menu {
-    height: calc(100vh - 350px);
+    height: calc(100vh - 650px);
     visibility: visible;
     overflow-y: auto;
   }
@@ -111,6 +103,8 @@
 
   .menu-contato {
     border: none;
+    text-transform: uppercase;
     padding: 0;
+    color: var(--cor-p9);
   }
 }

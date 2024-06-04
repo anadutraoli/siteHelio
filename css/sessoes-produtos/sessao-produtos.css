@@ -63,6 +63,11 @@
     gap: 25px;
     padding-top: 40px;
   }
+
+  .produtos-lista h2, 
+  .produtos-lista p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 700px) {

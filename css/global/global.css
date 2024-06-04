@@ -29,3 +29,40 @@ img {
   max-width: 100%;
   display: block;
 }
+
+body::-webkit-scrollbar {
+  border-right: 1px solid var(--cor-p13);
+  border-left: 1px solid var(--cor-p13);
+  border-radius: 1px;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-p13);
+  border-radius: 5px;
+  width: 1px;
+}
+
+.produtos-lista ul::-webkit-scrollbar {
+  border: 1px solid var(--cor-p13);
+  border-radius: 15px;
+  width: 1px;
+  height: 10px;
+}
+
+.produtos-lista ul::-webkit-scrollbar-thumb {
+  background-color: var(--cor-p13);
+  border-radius: 15px;
+  width: 1px;
+}
+
+
+
+.botao-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  color: #189915;
+  font-size: 3rem;
+}
+

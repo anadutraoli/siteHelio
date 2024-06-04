@@ -39,6 +39,7 @@
   .conclusao-texto {
     align-items: center;
     text-align: center;
+    gap: 10px;
   }
 
   .conclusao-texto h1 {
