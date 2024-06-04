@@ -82,7 +82,7 @@
   }
 
   #nav.active .header-menu {
-    height: calc(100vh - 650px);
+    height: calc(100vh - 100px);
     visibility: visible;
     overflow-y: auto;
   }
