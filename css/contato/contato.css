@@ -1,0 +1,48 @@
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.contato-introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.contato-introducao h1 {
+  text-transform: capitalize;
+  width: 20ch;
+}
+
+.contato a {
+  padding: 10px 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato i {
+  font-size: 30px;
+}
+
+@media (max-width: 420px) { 
+.contato-introducao h1 {
+  font-size: 2rem;
+}
+
+.contato-introducao a {
+  font-size: 1.25rem;
+}
+
+.divisor-contato {
+  font-size: 1.25rem;
+}
+
+}
+
+

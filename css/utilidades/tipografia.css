@@ -10,6 +10,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+.fonte-poppinsM {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
 .texto-g {
   font-size: 3.75rem; /* 60 */
 }
@@ -24,4 +29,18 @@ font-size: 1.5rem; /* 24 */
 
 .texto-pp {
   font-size: 1.25rem; /* 20 */
+}
+
+.texto-label {
+  display: block;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.texto-label::after {
+  content: '*';
+  margin-left: 2px;
+  display: inline-block;
+  color: #87421A;
+
 }

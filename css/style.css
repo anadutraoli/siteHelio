@@ -14,8 +14,6 @@
 
 /* Sessões */
 @import "./sessoes-produtos/sessao-produtos.css";
-@import "./sessoes-produtos/conetrufado.css";
-@import "./sessoes-produtos/paodemel.css";
 @import "./sessoes-produtos/maisvendidos.css";
 
 /* Avaliações */
@@ -23,3 +21,8 @@
 
 /* Conclusao */
 @import "./conclusao/conclusao.css";
+
+/* Página Contato */
+@import "./contato/contato.css";
+@import "./contato/formulario.css";
+

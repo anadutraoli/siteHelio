@@ -56,8 +56,6 @@ body::-webkit-scrollbar-thumb {
   width: 1px;
 }
 
-
-
 .botao-whatsapp {
   position: fixed;
   bottom: 20px;
@@ -65,4 +63,11 @@ body::-webkit-scrollbar-thumb {
   color: #189915;
   font-size: 3rem;
 }
+
+.container-formulario {
+  max-width: 1400px;
+  padding: 50px 60px;
+  margin: 0 auto;
+}
+
 

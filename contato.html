@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Hélio Guloseimas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./index.html"><img src="./img/logo.svg" alt="Logo Hélio"></a>
+      <nav id="nav">
+        <button id="btn-mobile">
+          Menu
+          <span id="hamburguer"></span>
+        </button>
+        <ul class="header-menu">
+          <li><a class="menu-produtos fonte-poppins texto-p" href="./produtos.html">Produtos</a></li>
+          <li class="menu-contato fonte-poppins texto-p"><a href="./contato.html">Faça seu pedido</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contato container-formulario">
+    <div class="contato-introducao">
+      <h1 class="fonte-noto texto-m cor-c11">Você pode fazer o seu pedido através do nosso whatsApp!</h1>
+      <a class="botao fonte-poppinsM texto-p" href="">Fale Conosco<i class="bi bi-whatsapp"></i></a>
+    </div>
+
+    <p class="fonte-poppins texto-m cor-c5 divisor-contato">Ou</p>
+
+    <div>
+      <div class="formulario-dados">
+        <h2 class="fonte-poppins texto-p">Preencha Esse Formulário</h2>
+        <p class="fonte-poppins texto-pp">Escreva aqui como podemos te ajudar.</p>
+      </div>
+      <div>
+        <form action="./index.html" class="container-contato">
+          <div class="formulario-nome">
+            <label class="fonte-poppinsM texto-pp texto-label" for="nome-label">Nome Completo</label>
+            <input type="text" name="nome" id="nome" required class="input-formulario">
+          </div>
+          <div class="formulario-email">
+            <label class="fonte-poppinsM texto-pp texto-label" for="email-label">E-mail</label>
+            <input type="email" name="email" id="email" required class="input-formulario">
+          </div>
+          <div class="formulario-telefone">
+            <label class="fonte-poppinsM texto-pp texto-label" for="telefone-label">Celular</label>
+            <input type="tel" name="telefone" id="telefone" required data-js="phone" class="input-formulario">
+          </div>
+          <div class="formulario-cpf">
+            <label class="fonte-poppinsM texto-pp texto-label" for="cpf-label">Cpf</label>
+            <input type="tel" name="cpf" id="cpf" required data-js="phone" class="input-formulario">
+          </div>
+          <div class="formulario-assunto">
+            <label class="fonte-poppinsM texto-pp texto-label" for="assunto-labe">Assunto</label>
+            <select name="assunto" id="assunto" class="input-formulario">
+              <option></option>
+              <option value="1">Dúvidas sobre o meu pedido</option>
+              <option value="2">Quero fazer uma encomenda</option>
+              <option value="3">Problemas com meu pedido</option>
+              <option value="4">Parcerias</option>
+            </select>
+            <label class="fonte-poppinsM texto-pp texto-label" for="mensagem-label">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="O que você precisa?" class="input-formulario"></textarea>
+          </div>
+          <button class="botao fonte-poppins">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer class="footer-bg">
+    <div class="footer-conteudo">
+      <a href="./index.html">
+        <img src="./img/logo-branco.svg" alt="">
+      </a>
+      <p class="fonte-roboto cor-c1 ">Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
