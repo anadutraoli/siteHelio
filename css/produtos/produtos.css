@@ -1,0 +1,149 @@
+.produtos-bg {
+  min-height: 300px;
+  background-image: url(/img/fundo-produtos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.produtos-bg img {
+  width: 100%;
+  display: block;
+}
+
+.produtos-introducao {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-items: center;
+  padding: 100px 30px;
+  color: var(--cor-c1);
+}
+
+.produtos-introducao p {
+  width: 33ch;
+}
+
+#produtos-busca {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.buscar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  border-radius: 20px;
+  background-color: var(--cor-c3);
+  width: 80%;
+  margin: auto;
+}
+
+.buscar-input {
+  font-size: 1.12rem;
+  color: var(--cor-c13);
+  padding: 15px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+  border: 1px solid transparent;
+  
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 280px));
+  gap: 45px;
+  padding: 80px 30px 30px 30px; 
+  justify-content: center;
+}
+
+.produtos li {
+  min-width: 280px;
+  flex: 1;
+} 
+
+
+.produtos img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.produtos img:hover {
+  background-color: rgba(65, 24, 0, 0.40);
+  box-shadow: 1px -4px 7.7px 0px rgba(65, 24, 0, 0.40);
+}
+
+.produtos h2 {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.preco-item {
+  padding-left: 0;
+}
+
+#no-results {
+  display: none;
+  text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+
+  .produtos-introducao p{
+    font-size: 1.25rem;
+  }
+
+  #produtos-busca {
+    padding-top: 50px;
+  }
+
+  .produtos {
+    gap: 20px 40px;
+  }
+
+  .produtos li {
+    width: 280px;
+    margin: auto;
+  } 
+
+  .produtos h2 {
+    font-size: 1.2rem;
+  }
+
+  .produtos p {
+    font-size: 1rem;
+  }
+
+  #no-results {
+    font-size: 1rem;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+.produtos-bg {
+  background-image: none;
+}
+
+.produtos-introducao {
+  color: var(--cor-c13);
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#produtos-busca {
+  padding-top: 20px;
+}
+
+
+}
+
