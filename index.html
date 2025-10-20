@@ -1,170 +1,193 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hélio Guloseimas</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hélio Guloseimas</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-
-<body>
-  <header class="header-bg">
-    <div class="header container">
-      <a href="./index.html"><img src="./img/logo.svg" alt="Logo Hélio"></a>
-      <nav id="nav">
-        <button id="btn-mobile">
-          Menu
-          <span id="hamburguer"></span>
-        </button>
-        <ul class="header-menu">
-          <li><a class="menu-produtos fonte-poppins texto-p" href="./produtos.html">Produtos</a></li>
-          <li class="menu-contato fonte-poppins texto-p"><a href="./contato.html">Faça seu pedido</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="introducao-bg container">
-    <div class="introducao">
-      <div class="introducao-texto">
-        <h1 class="fonte-noto texto-g cor-c13">Cone Recheado
-          & Pão de Mel Caseiro</h1>
-        <p class="fonte-roboto texto-p cor-c13">Explore sabores autênticos na nossa loja artesanal, onde os pães de mel macios e os cones trufados irresistíveis são as estrelas. Feitos com ingredientes de qualidade e carinho, cada mordida é uma experiência única. Se entregue aos prazeres doces da vida conosco!</p>
-        <a href="./produtos.html" class="botao fonte-poppins">saiba mais</a>
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <a href="./index.html"><img src="./img/logo.svg" alt="Logo Hélio" /></a>
+        <nav id="nav">
+          <button id="btn-mobile">
+            Menu
+            <span id="hamburguer"></span>
+          </button>
+          <ul class="header-menu">
+            <li>
+              <a
+                class="menu-produtos fonte-poppins texto-p"
+                href="./produtos.html"
+                >Produtos</a
+              >
+            </li>
+            <li class="menu-contato fonte-poppins texto-p">
+              <a href="./contato.html">Faça seu pedido</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <img src="./img/main.png" alt="cone e pao de mel">
-    </div>
-  </main>
+    </header>
 
-  <section class="produtos-lista container">
-    <h1 class="fonte-poppins cor-c11 texto-m">Nossos deliciosos pães de mel</h1>
-    <ul>
-      <li>
-        <a href="">
-          <img src="./img/paodemel.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Pão de mel doce de leite</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
-        </a>
-      </li>
+    <main class="introducao-bg container">
+      <div class="introducao">
+        <div class="introducao-texto">
+          <h1 class="fonte-noto texto-g cor-c13">
+            Cone Recheado & Pão de Mel Caseiro
+          </h1>
+          <p class="fonte-roboto texto-p cor-c13">
+            Explore sabores autênticos na nossa loja artesanal, onde os pães de
+            mel macios e os cones trufados irresistíveis são as estrelas. Feitos
+            com ingredientes de qualidade e carinho, cada mordida é uma
+            experiência única. Se entregue aos prazeres doces da vida conosco!
+          </p>
+          <a href="./produtos.html" class="botao fonte-poppins">saiba mais</a>
+        </div>
+        <img src="./img/main.png" alt="cone e pao de mel" />
+      </div>
+    </main>
 
-      <li>
-        <a href="" z>
-          <img src="./img/paodemel.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Pão de mel coco</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
-        </a>
-      </li>
-
-      <li>
-        <a href="">
-          <img src="./img/paodemel.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Pão de mel Uva</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section class="produtos-lista container">
-    <h1 class="fonte-poppins cor-c11 texto-m">Nossos deliciosos cones trufados</h1>
-    <ul>
-      <li>
-        <a href="">
-          <img src="./img/cone.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Cone trufado brigadeiro</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
-        </a>
-      </li>
-
-      <li>
-        <a href="">
-          <img src="./img/cone.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Cone trufado coco</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
-        </a>
-      </li>
-
-      <li>
-        <a href="">
-          <img src="./img/cone.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Cone trufado Brigadeiro</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section class="produtos-lista maisvendidos-lista container">
-    <h1 class="fonte-poppins cor-c13 texto-m">Mais Populares</h1>
-
-    <ul>
-      <li>
-        <a href="">
-          <img src="./img/paodemel.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Pão de mel doce de leite</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
-        </a>
-      </li>
-
-      <li>
-        <a href="">
-          <img src="./img/cone.png" alt="">
-          <h2 class="fonte-roboto cor-c13">Cone Trufado Coco</h2>
-          <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <article class="avaliacoes-bg">
-    <div class="avaliacoes container">
+    <section class="produtos-lista container">
+      <h1 class="fonte-poppins cor-c11 texto-m">
+        Nossos deliciosos pães de mel
+      </h1>
       <ul>
         <li>
-          <h2 class="fonte-noto texto-m">O que os clientes estão achando</h2>
-          <img class="perfil-avaliacao" src="./img/perfil.png" alt="">
-          <div class="dados-avaliacoes">
-            <h3 class="fonte-poppins texto-p">Ana Maria Dutra</h3>
-            <div class="estrelas">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-            </div>
-            <p class="texto-pp fonte-poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ex, molestias magni dolorum nobis neque necessitatibus autem dolor tempora consequuntur aperiam aspernatur inventore dolorem id velit magnam iure ab dolore.</p>
-          </div>
+          <a href="">
+            <img src="./img/paodemel.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Pão de mel doce de leite</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="" z>
+            <img src="./img/paodemel.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Pão de mel coco</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./img/paodemel.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Pão de mel Uva</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
+          </a>
         </li>
       </ul>
-    </div>
-  </article>
+    </section>
 
-  <section class="conclusao container">
-    <div class="conclusao-texto">
-      <h1 class="fonte-noto texto-g cor-c13">Cone Recheado
-        & Pão de Mel Caseiro</h1>
-      <p class="fonte-roboto texto-p cor-c13">Venha experimentar as deliciosas guloseimas do Hélio!
-        Aqui temos pão de mel com três opções de sabores
-        e cones recheados com sabores nada tradicionais.</p>
-      <a href="./contato.html" class="botao fonte-poppins">faça seu pedido</a>
-    </div>
-    <img src="./img/main.png" alt="cone e pao de mel">
+    <section class="produtos-lista container">
+      <h1 class="fonte-poppins cor-c11 texto-m">
+        Nossos deliciosos cones trufados
+      </h1>
+      <ul>
+        <li>
+          <a href="">
+            <img src="./img/cone.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Cone trufado brigadeiro</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
+          </a>
+        </li>
 
-  </section>
+        <li>
+          <a href="">
+            <img src="./img/cone.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Cone trufado coco</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
+          </a>
+        </li>
 
-  <article class="botao-whatsapp container">
-      <a class="cor-p13 fonte-poppins"  href="#">
+        <li>
+          <a href="">
+            <img src="./img/cone.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Cone trufado Brigadeiro</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="produtos-lista maisvendidos-lista container">
+      <h1 class="fonte-poppins cor-c13 texto-m">Mais Populares</h1>
+
+      <ul>
+        <li>
+          <a href="">
+            <img src="./img/paodemel.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Pão de mel doce de leite</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 6,00</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./img/cone.png" alt="" />
+            <h2 class="fonte-roboto cor-c13">Cone Trufado Coco</h2>
+            <p class="fonte-poppins cor-c11 texto-pp preco-item">R$ 5,00</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <article class="avaliacoes-bg">
+      <div class="avaliacoes container">
+        <h1 class="fonte-noto texto-m">O que os clientes estão achando?</h1>
+        <div class="content-avaliacoes">
+          <!-- <img class="avaliacao-perfil" src="" alt="" /> -->
+          <h2
+            class="avalicao-nome fonte-poppins texto-m"
+            id="avalicao-nome"
+          ></h2>
+          <p class="fonte-roboto texto-pp avalicao-text" id="avalicao-text"></p>
+        </div>
+      </div>
+    </article>
+
+    <section class="conclusao container">
+      <div class="conclusao-texto">
+        <h1 class="fonte-noto texto-g cor-c13">
+          Cone Recheado & Pão de Mel Caseiro
+        </h1>
+        <p class="fonte-roboto texto-p cor-c13">
+          Venha experimentar as deliciosas guloseimas do Hélio! Aqui temos pão
+          de mel com três opções de sabores e cones recheados com sabores nada
+          tradicionais.
+        </p>
+        <a href="./contato.html" class="botao fonte-poppins">faça seu pedido</a>
+      </div>
+      <img src="./img/main.png" alt="cone e pao de mel" />
+    </section>
+
+    <article class="botao-whatsapp container">
+      <a class="cor-p13 fonte-poppins" href="#">
         <p class="fonte-poppins cor-c13 texto-pp">Faça Seu Pedido</p>
         <i class="bi bi-whatsapp"></i>
       </a>
-  </article>
+    </article>
 
-  <footer class="footer-bg">
-    <div class="footer-conteudo">
-      <a href="./index.html">
-        <img src="./img/logo-branco.svg" alt="">
-      </a>
-      <p class="fonte-roboto cor-c1 ">Todos os direitos reservados.</p>
-    </div>
-  </footer>
-  <script src="js/script.js"></script>
-</body>
+    <footer class="footer-bg">
+      <div class="footer-conteudo">
+        <a href="./index.html">
+          <img src="./img/logo-branco.svg" alt="" />
+        </a>
+        <p class="fonte-roboto cor-c1">Todos os direitos reservados.</p>
+      </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
